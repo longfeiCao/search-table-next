@@ -1,11 +1,15 @@
 {
-  "name": "vue3-search-table",
-  "version": "1.0.0",
+  "name": "search-table-next",
+  "version": "1.1.32",
   "description": "search-table filter-table Vite2 + Vue3.0 + ant-design 2.x + filter-table 自定义插槽 支持远程Api 表单筛选支持select input date number 等自定义",
-  "main": "package/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository":{ 
+    "type" : "git",
+    "url" : "https://github.com/longfeiCao/search-table-next.git"
   },
   "keywords": [
     "vite2",
@@ -21,12 +25,12 @@
   "author": "caolongfei",
   "license": "ISC",
   "files": [
-    "package",
     "assets",
     "lib",
     "README.md"
   ],
-  "dependencies": {
+  "dependencies": {},
+  "peerdependencies" :{
     "ant-design-vue": "2.1.2",
     "vue": "3.1.5"
   },
